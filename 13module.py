@@ -46,5 +46,3 @@ if b == "да" or "yes" and Nticket >= 3:
     print(f"Сумма вашей покупки составит {price} со скидкой 10%")
 elif b == "да" or "yes" and Nticket < 3:
     print(f"Сумма вашей покупки составит {price}")
-else:
-    print("Не хотите как хотите. До свидания!")
