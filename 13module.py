@@ -36,9 +36,9 @@ for i in range(Nticket - 1):
 print(f'Ваши посетители возрастом  {ages} лет')
 print(f"Количество билетов {Nticket} ")
 for i in range(len(ages)):  # Изменяем значение возраста в списке на возрастные цены
-    if 18 >= ages[i] > 0:
+    if 18 > ages[i] > 0:
         ages[i] = 0
-    elif 18 < ages[i] <= 25:
+    elif 18 <= ages[i] <= 25:
         ages[i] = 999
     elif 25 < ages[i]:
         ages[i] = 1390

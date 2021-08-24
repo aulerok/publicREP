@@ -1,14 +1,16 @@
-def char_frequency(text):
-    text = text.lower()
-    text = text.replace(" ", "")
-    text = text.replace("\n", "")
+# для примера возьмём строку
+str_ = "my tst"
+str_iter = iter(str_)
 
-    count = {}  # для подсчета символов и их количества
-    for char in text:
-        if char in count:  # если символ уже встречался, то увеличиваем его количество на 1
-            count[char] += 1
-        else:
-            count[char] = 1
+print(type(str_))  # строка
+print(type(str_iter))  # итератор строки
 
-    for char, cnt in count.items():
-        print(f"Символ {char} встречается {cnt} раз")
+print(next(str_iter))
+print(next(str_iter))
+print(next(str_iter))
+print(next(str_iter))
+print(next(str_iter))
+print(next(str_iter))
+print(next(str_iter))
+print(next(str_iter))
+print(next(str_iter)) 
