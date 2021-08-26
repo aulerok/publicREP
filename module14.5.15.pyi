@@ -29,4 +29,3 @@ def from_db():
     print("some data from database")
 
 from_db()
-
