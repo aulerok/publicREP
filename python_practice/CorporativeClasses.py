@@ -1,5 +1,5 @@
 class Guest:
-    def __init__(self, fullname, city, status,):
+    def __init__(self, fullname, city='Chicago', status='visitor',):
         self.fullname = fullname
         self.city = city
         self.status = status
