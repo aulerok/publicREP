@@ -1,7 +1,7 @@
 from rectangle import Rectangle, Square, Circle
 # Далее создаем два прямоугольника.
-rect_1 = Rectangle(3,4)
-rect_2 = Rectangle(12,5)
+rect_1 = Rectangle(3, 4)
+rect_2 = Rectangle(12, 5)
 # Вывод площадей двух прямоугольников
 print(f"Площадь первого прямоугольника = {rect_1.getArea()}")
 print(f"Площадь второго прямоугольника = {rect_2.getArea()}")
