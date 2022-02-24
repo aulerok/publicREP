@@ -6,4 +6,3 @@ users = []
 users.extend((user_1, user_2, user_3))
 for i in users:
     print(i.user_balance())
-
